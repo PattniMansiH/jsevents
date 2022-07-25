@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operator</title>
+</head>
+<script src="./operator.js"></script>
+<style>
+    .main_body {
+        background-color: whitesmoke;
+        margin: 0%;
+        padding: 0%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        height: 100vh;
+    }
+
+    .div {
+        background-color: white;
+        height: 270px;
+        width: 350px;
+        border-radius: 10px;
+        box-shadow: 1px 15px 12px 4px gray;
+    }
+
+    .input {
+        margin: 10px;
+        margin-left: 15px;
+        padding: 12px;
+        width: 300px;
+        border-radius: 10px;
+        border: 1px solid gray;
+    }
+
+    .button1 {
+        padding: 5px;
+        width: 100px;
+        height: 50px;
+        border-radius: 10px;
+        border: 1px solid gray;
+        margin-left: 15px;
+        margin-top: 15px;
+        font-size: 35px;
+    }
+
+    .button2 {
+        padding: 5px;
+        width: 100px;
+        height: 50px;
+        border-radius: 10px;
+        border: 1px solid gray;
+        margin-left: 120.5px;
+        margin-top: 15px;
+        font-size: 35px;
+
+    }
+
+    .button3 {
+        padding: 5px;
+        width: 100px;
+        height: 50px;
+        border-radius: 10px;
+        border: 1px solid gray;
+        margin-left: 15px;
+        margin-top: 15px;
+        font-size: 35px;
+    }
+
+    .button4 {
+        padding: 5px;
+        width: 100px;
+        height: 50px;
+        border-radius: 10px;
+        border: 1px solid gray;
+        margin-left: 120.5px;
+        margin-top: 15px;
+        font-size: 35px;
+    }
+    .button1:hover{
+        background-color: rgb(214, 214, 214);
+    }
+    .button2:hover{
+        background-color: rgb(214, 214, 214);
+    }
+    .button3:hover{
+        background-color: rgb(214, 214, 214);
+    }
+    .button4:hover{
+        background-color: rgb(214, 214, 214);
+    }
+    @media only screen and (max-width: 400px) {
+       .main_body {
+       background-color: white;
+     }
+     
+     
+}
+</style>
+
+<body class="main_body">
+    <div class="div">
+        <form method="post" name="M">
+            <input type="text" name="c1" id="c1" class="input" autocomplete="off" placeholder="Input  value">
+            <input type="text" name="c2" id="c2" class="input" autocomplete="off" placeholder="Input  value"><br>
+            <button onclick="nirali()" class="button1">+</button>
+            <button onclick="mansi()" class="button2">-</button><br>
+            <button onclick="princi()" class="button3">*</button>
+            <button onclick="pappa()" class="button4">/</button>
+            <button onclick="mummy()">^</button>
+    </div>
+    </form>
+</body>
+
+</html>
